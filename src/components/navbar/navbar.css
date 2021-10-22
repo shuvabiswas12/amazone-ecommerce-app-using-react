@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.navbar {
+    background-color: rgb(35, 47, 62);
+}
+
+.navbar-brand {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 3rem;
+    margin: 0 5px;
+    font-family: Lobster;
+    letter-spacing: 2px;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255) !important;
+    cursor: pointer;
+    font-size: 1.8rem;
+    position: relative;
+}
+
+.nav-link:hover::after {
+    content: " ";
+    position: absolute;
+    border-bottom: 1px solid aliceblue;
+    border-top: 1px solid aliceblue;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+}
+
+.navbar-toggler {
+    font-size: 1.8rem;
+    float: right;
+}
+
+.nav-item {
+    margin: 0 10px;
+}

@@ -1,0 +1,32 @@
+.search-bar {
+    width: 95rem;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-bar * {
+    font-size: 2.0rem;
+    line-height: 1.8;
+}
+
+.search-bar .input-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search-bar .form-control {
+    flex-grow: 1;
+}
+
+.search-bar .form-select {
+    width: 60rem !important;
+    flex: 0 0 fit-content;
+    background-color: rgb(243,243,243);
+}
+
+.search-btn {
+    height: 4.5rem;
+    flex-basis: 20%;
+    margin: 0 5px;
+}
