@@ -1,0 +1,66 @@
+.my-cart {
+    background-color: rgb(255, 255, 255);
+    margin: 5rem auto;
+    padding: 2rem;
+}
+
+.my-cart .cart-product-img {
+    width: 20rem;
+    position: relative;
+}
+
+.cart-product-name {
+    color: rgb(61, 73, 187);
+    font-size: 2.2rem;
+}
+
+.my-cart .product-brand-name {
+    position: absolute;
+    top: 3rem;
+    right: .8rem;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(240, 122, 23);
+    box-shadow: 1px 1px 5px 1px rgb(241, 241, 241);
+
+}
+
+.my-cart .quantity {
+    font-size: 1.5rem;
+    width: 5rem;
+}
+
+.my-cart .remove-btn {
+    font-size: 1.3rem;
+    border-radius: 5px;
+    line-height: 2.0;
+    padding-bottom: .6rem;
+    font-weight: bold;
+}
+
+.total {
+    position: relative;
+    margin-bottom: 5px;
+    font-size: 1.4rem;
+}
+
+.product-price-in-cart {
+    font-size: 1.7rem;
+}
+
+.single-product-cart {
+    background-color: rgb(237, 242, 245);
+    padding: 2rem;
+    border: 2px solid rgb(234, 237, 237);
+}
+
+.total-price {
+    font-size: 1.7rem;
+    flex: 1 1 100%;
+}
+
+.total-price-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

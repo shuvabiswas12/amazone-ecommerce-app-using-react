@@ -1,5 +1,7 @@
 * {
-    margin: 0; padding: 0; box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 *, *::before, *::after {
@@ -9,4 +11,34 @@
 
 html {
     font-size: 60%;
+}
+
+@media (max-width: 700px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+.signin-signup-label {
+    text-align: left;
+    font-size: 1.6rem;
+    margin: -7px .5rem 0 .5rem;
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+.signin-signup-label:hover {
+    text-decoration: underline;
+}
+
+.btn-label {
+    font-size: 1.6rem;
+}
+
+body {
+    background-color: rgb(234, 237, 237);
+}
+
+.text-right {
+    text-align: right;
 }

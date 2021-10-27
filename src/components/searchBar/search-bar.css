@@ -1,32 +1,53 @@
 .search-bar {
-    width: 95rem;
+    width: 90%;
     margin: 10px auto;
     display: flex;
-    justify-content: space-between;
+}
+
+@media (max-width: 70rem) {
+    .search-bar {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .search-bar .dropdown-filter {
+        flex: 1 1 100%;
+        margin-bottom: 5px;
+        margin-right: 0;
+    }
+    .filtering-by-price, .filtering-by-brand {
+        flex: 2 1 100%;
+    }
+}
+
+.search-bar .search-field {
+    flex: 2 1 50%;
+}
+
+.search-bar .dropdown-filter {
+    flex: 1 1 30%;
+    margin: 2px;
+}
+
+.search-bar .search-btn {
+    flex: 1 1 10%;
+}
+.search-bar .filtering-by-price {
+    flex: 2 2 50%;
+}
+
+.search-bar .filtering-by-brand {
+    flex: 2 2 40%;
 }
 
 .search-bar * {
-    font-size: 2.0rem;
-    line-height: 1.8;
-}
-
-.search-bar .input-group {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.search-bar .form-control {
-    flex-grow: 1;
+    font-size: 1.8rem;
+    line-height: 1.7;
 }
 
 .search-bar .form-select {
-    width: 60rem !important;
-    flex: 0 0 fit-content;
     background-color: rgb(243,243,243);
 }
 
 .search-btn {
-    height: 4.5rem;
-    flex-basis: 20%;
-    margin: 0 5px;
+    height: 4.1rem;
 }

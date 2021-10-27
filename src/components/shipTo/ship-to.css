@@ -1,0 +1,39 @@
+.ship-to {
+    width: 100%;
+    padding: 1px;
+}
+
+.ship-to__title {
+    font-size: 2.0rem;
+    font-weight: bold;
+}
+
+.ship-to__label {
+    font-size: 1.8rem;
+    color: rgb(161,165,168);
+    margin: 5px 0;
+}
+.ship-to__select option {
+    font-size: 1.8rem;
+}
+
+.ship-to .form-select {
+    font-size: 1.8rem;
+}
+
+.ship-to .form-control {
+    font-size: 1.8rem;
+}
+.ship-to .address-field {
+    height: 100px;
+}
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.address-save-btn {
+    font-size: 2.0rem;
+    font-weight: bold;
+    width: 20%;
+    padding-bottom: 8px;
+    background-color: rgb(61,73,187);
+}

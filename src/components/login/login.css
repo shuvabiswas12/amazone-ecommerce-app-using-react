@@ -1,0 +1,44 @@
+.form-container .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 8rem;
+}
+
+.form-container .form-control {
+    width: 40rem;
+    padding: 5px;
+    font-size: 2.0rem;
+    margin: 5px 0;
+}
+
+.form-container {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    margin-top: 10rem;
+}
+
+.login-container-label::before {
+    content: "Sign In";
+    font-size: 2.0rem;
+    position: absolute;
+    margin-top: -5rem;
+    border-bottom: 2px solid brown;
+}
+
+.form-container .form-label {
+    font-size: 1.8rem;
+    margin: 2px 0;
+}
+
+.form-container .login-btn {
+    font-size: 2.0rem;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+

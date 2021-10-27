@@ -1,0 +1,114 @@
+.product-details--page {
+    background-color: rgb(255, 255, 255);
+    margin: 5rem auto;
+    padding: 2rem;
+}
+
+.product-details--page .product-name {
+    color: rgb(61, 73, 187);
+    font-size: 2.5rem;
+}
+
+.product-condition {
+    background-color: rgb(245, 246, 252);
+    padding: 2px;
+    font-size: 1.6rem;
+    text-align: center;
+    border-radius: 5rem;
+}
+
+.product-image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.product-image > img {
+    width: 100%;
+}
+
+.key-features-title {
+    font-size: 1.8rem;
+    margin: 15px 2px;
+    position: relative;
+}
+
+.key-features-title::after {
+    position: absolute;
+    border: 2px dotted rgb(229, 51, 11);
+    bottom: -10px;
+    left: 0;
+    width: 11rem;
+}
+
+.features-item {
+    font-size: 1.9rem;
+    position: relative;
+}
+
+.item-header:after {
+    position: absolute;
+    border: 1px solid black;
+    width: 5rem;
+    bottom: 0;
+    left: 0;
+}
+
+.update-quantity {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 100%;
+    margin: 2rem 0;
+}
+
+.plus-btn, .minus-btn {
+    width: 10rem;
+    border-width: 2px;
+    border-color: rgb(234, 237, 237);
+    border-radius: 5px;
+}
+
+.plus-btn:hover, .minus-btn:hover {
+    background-color: rgb(234, 237, 237);
+    border: rgb(234, 237, 237);
+}
+
+.quantity-value {
+    margin: 0 10px;
+    padding: 10px 25px;
+    border: 2px solid rgb(234, 237, 237);
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.quantity-label {
+    font-size: 1.8rem;
+}
+
+.quantity-section {
+    margin: 3rem 10px;
+}
+
+.value-update-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.buy-now-btn-section {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 100%;
+    margin: 2rem 0;
+}
+
+.buy-now-btn {
+    width: 20rem;
+    font-size: 1.8rem;
+    border-radius: 5px;
+    line-height: 2.1;
+    margin: 0 2rem;
+}
